@@ -1,0 +1,337 @@
+s (322 sloc)  7.49 KB
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.left{
+    width: 13%;
+    height: 100%;
+    /* background-color: rgb(236, 233, 233); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    text-align: left;
+    /* margin-right: 100px; */
+    /* padding-left: 10px; */
+    
+}
+.logo{
+    width:100%;
+    height: 10%;
+    background-color: rgb(242, 238, 238);
+    display: flex;
+    justify-content: space-evenly;
+}
+.content{
+    width:100%;
+    height: 90%;
+    background-color: rgb(252, 250, 250);
+    display: flex;
+    justify-content: space-evenly;
+    align-items:start;
+    flex-direction: column;
+    text-align: start;
+    /* padding-left:10px ; */
+    
+    /* margin-top: 10%; */
+}
+.right{
+    width:87% ;
+    height:100% ;
+}
+.upper{
+    width:100% ;
+    height: 10%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+    
+    /* padding: 10px; */
+    /* background-color: aqua; */
+}
+
+.upper input{
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: black;
+}
+  
+.bottom{
+    width:100% ;
+    height:90% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.line1{
+    width: 100%;
+    height:45% ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* text-align: left; */
+}
+.line1 h1,p{
+    padding-left: 35px;
+}
+
+.card1{
+    width: 250px;
+    height: 200px;
+    /* background-color: rgb(207, 204, 204); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    text-align: justify;
+    font-weight: bold;
+    font-size: small;
+    /* border-radius :20px;  */
+    position: relative;
+}
+.profile1{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: url("https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 190px;
+    margin-top: 110px;
+}
+img{
+    width:250px ;
+    height:130px ;
+}
+.card2{
+    width:250px;
+    height: 200px;
+    /* background-color: rgb(207, 204, 204); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    text-align: justify;
+    font-weight: bold;
+    font-size: small;
+    position: relative;
+    /* border-radius :20px; */
+}
+.profile2{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: url("https://img.freepik.com/free-vector/mom-son-love-relation-mothers-day_1017-24540.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-right: 190px;
+    margin-top: 110px;
+}
+.card3{
+    width: 250px;
+    height: 200px;
+    /* background-color: rgb(204, 204, 204); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    text-align: justify;
+    font-weight: bold;
+    font-size: small;
+    position: relative;
+    /* border-radius :20px;  */
+}
+.profile3{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: url("https://wallpapers.com/images/featured/hai5onz2zgr0yhg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 190px;
+    margin-top: 110px;
+}
+.card4{
+    width: 250px;
+    height: 200px;
+    /* background-color: rgb(204, 204, 204); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    text-align: justify;
+    font-weight: bold;
+    font-size: small;
+    position: relative;
+    /* border-radius :20px;  */
+}
+.profile4{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: url("https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGl2aW5nJTIwbGlmZXxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 190px;
+    margin-top: 110px;
+}
+.line2{
+    width: 100%;
+    height:45% ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.line2 h1,p{
+    padding-left: 35px;
+}
+.card5{
+    width: 250px;
+    height: 200px;
+    /* background-color: rgb(207, 204, 204); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    text-align: justify;
+    font-weight: bold;
+    font-size: small;
+    position: relative;
+    /* border-radius :20px;  */
+}
+.profile5{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: url("https://dad.agency/media/site/3913692421-1607703546/dad-meta-image-1024x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 190px;
+    margin-top: 110px;
+}
+img{
+    width:220px ;
+    height:130px ;
+}
+.card6{
+    width: 250px;
+    height: 200px;
+    /* background-color: rgb(207, 204, 204); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    text-align: justify;
+    font-weight: bold;
+    font-size: small;
+    position: relative;
+    /* border-radius :20px; */
+}
+.profile6{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: url("https://cdn4.vectorstock.com/i/1000x1000/41/33/logo-music-vector-8114133.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 190px;
+    margin-top: 110px;
+}
+.card7{
+    width: 250px;
+    height: 200px;
+    /* background-color: rgb(204, 204, 204); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    text-align: justify;
+    font-weight: bold;
+    font-size: small;
+    position: relative;
+    /* border-radius :20px;  */
+}
+.profile7{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: url("https://patch.com/img/cdn20/users/22914653/20180705/012205/styles/raw/public/processed_images/insight_seminars-1530811197-3705.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 190px;
+    margin-top: 110px;
+}
+.card8{
+    width: 250px;
+    height: 200px;
+    /* background-color: rgb(204, 204, 204); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    text-align: justify;
+    font-weight: bold;
+    font-size: small;
+    position: relative;
+    /* border-radius :20px;  */
+}
+.profile8{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: url("https://cdn.tollywood.net/wp-content/uploads/2022/03/List-of-South-movies-releasing-this-March.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 190px;
+    margin-top:110px
+}
